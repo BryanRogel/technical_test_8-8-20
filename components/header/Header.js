@@ -14,6 +14,14 @@ function Header() {
         {
             'name':'Dogs', 
             'route': '/image'
+        },
+        {
+            'name':'Proyects', 
+            'route': '/proyects'
+        },
+        {
+            'name':'Apply', 
+            'route': '/formulary'
         }
     ];
 
