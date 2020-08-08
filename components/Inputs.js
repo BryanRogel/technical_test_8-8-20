@@ -14,7 +14,7 @@ import {
     whitespace,
     noPermit,
     onlyOnePoint
-} from "../../functions/validations";
+} from "../functions/validations";
 
 /*  -----------------PROPS------------------
     disabled      --> bool
