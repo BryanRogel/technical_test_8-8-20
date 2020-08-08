@@ -4,6 +4,7 @@ import { ConfigProvider } from 'antd';
 import Header from '../components/header/Header';
 import '../styles/globals.css';
 import 'antd/dist/antd.css';
+import '../styles/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
 
