@@ -7,12 +7,12 @@ export default function Landing() {
                     <div className="data-container col-4">
                         <div className="row col-12">
                             <h1>Contact us</h1>
-                            {/* <ul>
-                            <li type="circle">Esto es un tipo de punto.</li>
-                            <li type="square">Este es otro.</li>
+                            <ul>
+                            <li type="circle">direccion.</li>
+                            <li type="square">correo.</li>
 
-                            <li type="disc">Y este es otro diferente.</li>
-                            </ul> */}
+                            <li type="disc">telefono.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -54,6 +54,9 @@ export default function Landing() {
             h1 , h2 {
                 text-transform: uppercase;
                 color: #0cbbf5;
+            }
+            li {
+                list-style:none;
             }
             `}</style>
         </>
