@@ -10,6 +10,10 @@ function Header() {
         {
         'name':'Contact Us', 
         'route': '/landing'
+        },
+        {
+            'name':'Dogs', 
+            'route': '/image'
         }
     ];
 
@@ -22,7 +26,7 @@ function Header() {
                 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                 <ul className="menu">
                 {menuItems && menuItems.map((item, index)=>(
-                    <Link key={index} id={index} href={item.route}>
+                    <Link key={index} href={item.route}>
                     <a>
                         {item.name}
                     </a>
